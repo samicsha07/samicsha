@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KPRCAS College Logo Placeholder</title>
+  <style>
+    body {
+      background-color: #ececec;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Arial Black', Arial, sans-serif;
+    }
+    .logo-placeholder {
+      background-color: #004080;
+      color: #fff;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      user-select: none;
+    }
+    .logo-placeholder h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .logo-placeholder p {
+      font-size: 24px;
+      margin: 8px 0 0 0;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-placeholder">
+    <h1>KPRCAS</h1>
+    <p>College</p>
+  </div>
+</body>
+</html>
